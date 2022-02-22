@@ -1,8 +1,9 @@
 # Dvorak-ForTrime
-## Trime同文输入法   Dvorak键盘布局
-下载 https://github.com/osfans/trime/
+
+## Trime同文输入法  下载     https://github.com/osfans/trime/
 
 
+## Dvorak键盘布局     https://github.com/ACGMC/Dvorak-ForTrime/
 
 - 2021/09/15 改
 - 2021/06/22 改
