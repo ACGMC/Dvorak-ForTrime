@@ -3,7 +3,7 @@
 ## Trime同文输入法  下载     https://github.com/osfans/trime/
 
 
-## Dvorak键盘布局     https://github.com/ACGMC/Dvorak-ForTrime/
+## Dvorak键盘布局     https://github.com/ACGMC/Dvorak-ForTrime/archive/refs/tags/dvorak.zip
 
 - 2021/09/15 改
 - 2021/06/22 改
