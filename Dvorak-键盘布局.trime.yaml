@@ -334,29 +334,29 @@ preset_keyboards:
 
     keys:
       # 数字区
-      #设定按键颜色模板 
+      #设定按键颜色模板             
       #key_back_color: sbc, key_text_color: stc}#
-      - {width: 9, click: '1', long_click: "[", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '2', long_click: "{", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '3', long_click: "}", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '4', long_click: "(", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '5', long_click: "@", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '6', long_click: "*", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '7', long_click: ")", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '8', long_click: \, key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '9', long_click: "]", key_back_color: bgn, key_text_color: tgn}
-      - {width: 9, click: '0', long_click: "!", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '1', long_click: "!", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '2', long_click: "@", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '3', long_click: "#", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '4', long_click: "$", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '5', long_click: "%", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '6', long_click: "^", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '7', long_click: "&", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '8', long_click: "*", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '9', long_click: "(", key_back_color: bgn, key_text_color: tgn}
+      - {width: 9, click: '0', long_click: ")", key_back_color: bgn, key_text_color: tgn}
       - {width: 10, click: BackSpace, key_back_color: bbs, key_text_color: tbs}
       # 字母区1
       - {width: 9, swipe_up: '', click: "'", long_click: '"'}
       - {width: 9, click: ',', long_click: "<"}
       - {width: 9, click: '.', long_click: ">"}
       - {width: 9, swipe_up: 'P', click: 'p', long_click: "~"}
-      - {width: 9, swipe_up: 'Y', click: 'y', long_click: "$"}
-      - {width: 9, swipe_up: 'F', click: 'f', long_click: '&'}
-      - {width: 9, swipe_up: 'G', click: 'g', long_click: '`'}
+      - {width: 9, swipe_up: 'Y', click: 'y', long_click: '`'}
+      - {width: 9, swipe_up: 'F', click: 'f', long_click: ''}
+      - {width: 9, swipe_up: 'G', click: 'g', long_click: ''}
       - {width: 9, swipe_up: 'C', click: 'c', long_click: 'Clear'}
-      - {width: 9, swipe_up: 'R', click: 'r', long_click: "^"}
+      - {width: 9, swipe_up: 'R', click: 'r', long_click: '\'}
       - {width: 9, swipe_up: 'L', click: 'l', long_click: "|"}
       - {width: 9, click: '/', long_click: "?"}
 
@@ -367,7 +367,7 @@ preset_keyboards:
       - {swipe_up: 'U', click: 'u', long_click: paste}
       - {swipe_up: 'I', click: 'i', long_click: undo}
       - {swipe_up: 'D', click: 'd', long_click: '{Tab}'}
-      - {swipe_up: 'H', click: 'h', long_click: "%"}
+      - {swipe_up: 'H', click: 'h', long_click: ""}
       - {swipe_up: 'T', click: 't', long_click: ""}
       - {swipe_up: 'N', click: 'n', long_click: "Keyboard_number"}
       - {swipe_up: 'S', click: 's', long_click: 'Keyboard_codes'}
@@ -380,9 +380,9 @@ preset_keyboards:
       - {width: 9, swipe_up: 'K', click: 'k', long_click: ''}
       - {width: 9, swipe_up: 'X', click: 'x', long_click: ''}
       - {width: 9, swipe_up: 'B', click: 'b', long_click: '好家伙'}
-      - {width: 9, swipe_up: 'M', click: 'm', long_click: "#"}
+      - {width: 9, swipe_up: 'M', click: 'm', long_click: ""}
       - {width: 9, swipe_up: 'W', click: 'w', long_click: "qqa"}
-      - {width: 9, swipe_up: 'V', click: 'v', long_click: "qqb"}
+      - {width: 9, swipe_up: 'V', click: 'v', long_click: "qq1"}
       - {width: 9, swipe_up: 'Z', click: 'z', long_click: "livemail"}
       #回车
       - {click: Return, width: 10, key_back_color: sbc, key_text_color: tgn, long_click: Mode_switch}
@@ -443,7 +443,7 @@ preset_keys:
   "pem": {label: pem, functional: false, commit: "/crt/private.pem"}
   "net": {label: 域名, functional: false, commit: "a.xyz"}
   "qqa": {label: qa, functional: false, commit: "xxx@qq.com"}
-  "qqb": {label: qb, functional: false, commit: "xxxx@qq.com"}
+  "qq1": {label: q1, functional: false, commit: "888@qq.com"}
   "livemail": {label: live邮, functional: false, commit: "xxx@live.cn"}
   # 安卓
   BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
