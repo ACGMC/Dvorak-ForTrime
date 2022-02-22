@@ -5,7 +5,8 @@
 
 ## Dvorak键盘布局     https://github.com/ACGMC/Dvorak-ForTrime/archive/refs/tags/dvorak.zip
 
-![image](https://user-images.githubusercontent.com/38478564/155049101-076c3d9b-4539-42b4-8c0c-092f7ce198c1.png)
+
+![image](https://user-images.githubusercontent.com/38478564/155053420-78dd237c-2b83-4327-b3d5-4518a5d76176.png)
 
 
 
