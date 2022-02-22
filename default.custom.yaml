@@ -1,0 +1,9 @@
+customization:
+  distribution_code_name: ""
+  distribution_version: ""
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Feb 22 08:29:59 2022"
+  rime_version: 1.7.3
+patch:
+  schema_list:
+    - {schema: "Dvorak方案"}
